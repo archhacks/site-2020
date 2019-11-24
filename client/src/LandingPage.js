@@ -2,9 +2,6 @@ import React from 'react';
 import './App.css';
 
 class LandingPage extends React.Component {
-    constructor(props) {
-        super(props)
-    }
     render() {
         return (
             <header className="App-header">
