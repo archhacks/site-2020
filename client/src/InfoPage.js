@@ -6,14 +6,14 @@ class InfoPage extends React.Component {
         return (
             <div className="InfoPage container-fluid">
                 <div className="row h-100">
-                    <div className="col-md-7 Info-Left">
+                    <div className="col-md-7 Info-Col Info-Left">
                         <h2>About Hackathons</h2>
                         <p>Literally Text</p>
                         <h2>About ArchHacks</h2>
                         <p>Literally Text</p>
 
                     </div>
-                    <div className="col-md-6 Info-Right">
+                    <div className="col-md-5 Info-Col Info-Right">
                         <h2>FAQ</h2>
                     </div>
                 </div>
