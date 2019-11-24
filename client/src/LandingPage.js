@@ -6,7 +6,7 @@ class LandingPage extends React.Component {
         return (
             <header className="App-header">
                 <h1>ArchHacks</h1>
-                <p>Tech Proof of Concept!</p>
+                <p>February 21-23?? aaaah</p>
             </header>
         )
     }
