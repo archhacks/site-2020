@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LandingPage from './LandingPage.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-	<h1>ArchHacks</h1>
-        <p>Tech Proof of Concept!</p>
-      </header>
+      <div className="LandingPage">
+          <LandingPage />
+      </div>
     </div>
   );
 }
