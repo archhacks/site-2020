@@ -4,7 +4,7 @@ import './App.css';
 class InfoPage extends React.Component {
     render() {
         return (
-            <div className="InfoPage container-fluid">
+            <div className="InfoPage container">
                 <div className="row">
                     <div className="col Info-Left">
                         <h2>About Hackathons</h2>

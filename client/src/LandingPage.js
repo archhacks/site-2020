@@ -4,7 +4,7 @@ import './App.css';
 class LandingPage extends React.Component {
     render() {
         return (
-            <header className="App-header container-fluid">
+            <header className="App-header container">
                 <h1>ArchHacks</h1>
                 <p>February 21-23?? aaaah</p>
             </header>
