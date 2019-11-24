@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import LandingPage from './LandingPage.js'
-import SponsorPage from './SponsorPage';
+import InfoPage from './InfoPage.js'
+import SponsorPage from './SponsorPage.js'
 
 function App() {
   return (
