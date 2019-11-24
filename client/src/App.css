@@ -22,6 +22,13 @@
   color: #c81539;
 }
 
+.Info-Left {
+  background-color: gray;
+}
+.Info-Right {
+  background-color: teal;
+}
+
 .App-header {
   background-color: white;
   min-height: 100vh;
