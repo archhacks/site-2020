@@ -14,7 +14,7 @@
   background-color: white;
   min-height: 100vh;
   /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
+  
   color: #c81539;
 }
 .Info-Col {
@@ -26,7 +26,12 @@
 .Info-Right {
   background-color: teal;
 }
-
+.Info-Header {
+  font-size: calc(22px + 3vmin);
+}
+.Info-Text {
+  font-size: calc(8px + 1vmin);
+}
 .App-header {
   background-color: white;
   min-height: 100vh;
@@ -41,8 +46,8 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  
+  margin: 10vh;
+
+
 }
 
