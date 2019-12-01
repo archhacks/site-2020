@@ -14,7 +14,7 @@ class InfoPage extends React.Component {
                             </div>
                             <div className="Info-About-Specific">
                                 <h2 className="Info-Header">About ArchHacks</h2>
-                                <p className="Info-Text">ArchHacks brings scientists and creatives together, inspiring individuals and teams to create a project with an emphasis on biotechnology. Over 36 hours, you can expect to build something completely new, get free food and swag, and have a chance to network with top recruiters in the industry!</p>
+                                <p className="Info-Text">ArchHacks is a hackathon hosted at Washington University in St. Louis Nov. 4-6 for students of all backgrounds with a passion for technology, design, and, most importantly, building things. ArchHacks brings together more than 500 students from around the country for 48 hours of collaboration, problem solving, and building. We will provide a unique opportunity for students to work with resources and companies they cannot find anywhere else, and our theme, HealthTech, means that the products our participants create will make a real difference. You will have the opportunity to make invaluable connections with corporations, collaborate with friends and, most importantly, develop something that will contribute to the HealthTech community.</p>
                             </div>
                         </div>
                     </div>
@@ -22,8 +22,13 @@ class InfoPage extends React.Component {
                         <div className="Info-Right-Content">
                             <div className="Info-FAQ-Text">
                                 <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
+                                <p className="Info-Question">Why HealthTech?</p>
+                                <p className="Info-Answer">Today the health industry has expanded to incorporate engineering, technology, digital design, and more. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.</p>
                                 <p className="Info-Question">Question?</p>
                                 <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
+                                <p className="Info-Question">Can you think of more?</p>
+                                <p className="Info-Answer">No, I certainly cannot!</p>
+                                
                             </div>
                         </div>
                     </div>
