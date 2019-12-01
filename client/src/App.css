@@ -9,7 +9,16 @@
 .LandingPage {
   height: 100vh;
 }
-
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #c81539;
+}
 .InfoPage {
   background-color: white;
   min-height: 100vh;
@@ -32,25 +41,27 @@
 .Info-Text {
   font-size: calc(10px + 1.5vmin);
 }
-.Info-Spacing {
-  padding: 15vh;
-}
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #c81539;
-}
 .Info-Left-Content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 10vh auto auto 10vh;
   text-align: left;
   margin: 10vh;
-
-
 }
+.Info-Spacing-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.Info-About-General {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.Info-About-Specific {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.Info-Spacing-2 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
 

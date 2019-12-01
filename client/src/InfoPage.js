@@ -8,11 +8,16 @@ class InfoPage extends React.Component {
                 <div className="row h-100">
                     <div className="col-md-7 Info-Col Info-Left">
                         <div className="Info-Left-Content">
-                            <h2 className="Info-Header">About Hackathons</h2>
-                            <p className="Info-Text">Literally Text</p>
-                            <div className="Info-Spacing"></div>
-                            <h2 className="Info-Header">About ArchHacks</h2>
-                            <p className="Info-Text">Literally Text</p>
+                            <div className="Info-Spacing-1"></div>
+                            <div className="Info-About-General">
+                                <h2 className="Info-Header">About Hackathons</h2>
+                                <p className="Info-Text">Literally Text</p>
+                            </div>
+                            <div className="Info-About-Specific">
+                                <h2 className="Info-Header">About ArchHacks</h2>
+                                <p className="Info-Text">Literally Text</p>
+                            </div>
+                            <div className="Info-Spacing-2"></div>
                         </div>
                     </div>
                     <div className="col-md-5 Info-Col Info-Right">
