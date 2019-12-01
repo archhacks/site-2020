@@ -39,6 +39,14 @@
   font-size: calc(10px + 1.5vmin);
   color: gray;
 }
+.Info-Question {
+  font-size: calc(8px + 1.1vmin);
+  color: #c81539;
+}
+.Info-Answer {
+  font-size: calc(8px + 1.1vmin);
+  color: gray;
+}
 .Info-Left-Content {
   margin: 10vh;
   text-align: left;
@@ -51,7 +59,8 @@
 }
 .Info-Right-Content {
   margin: 10vh;
-  border-style: dashed;
+  min-height: 80vh;
+  border-style: dashed 8px;
   border-color: #c81539;
   border-width: 4px;
 }
