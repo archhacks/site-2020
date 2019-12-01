@@ -43,6 +43,7 @@
 }
 .Info-Left-Content {
   margin: 10vh;
+  text-align: left;
 }
 .Info-About-General {
   height: 40vh;
