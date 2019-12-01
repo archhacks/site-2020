@@ -29,9 +29,6 @@
 .Info-Col {
   min-height: 100vh;
 }
-.Info-Left {
-  background-color: gray;
-}
 .Info-Right {
   background-color: teal;
 }
@@ -40,16 +37,23 @@
 }
 .Info-Text {
   font-size: calc(10px + 1.5vmin);
+  color: gray;
 }
 .Info-Left-Content {
   margin: 10vh;
   text-align: left;
 }
 .Info-About-General {
-  height: 40vh;
+  min-height: 40vh;
 }
 .Info-About-Specific {
-  height: 40vh;
+  min-height: 40vh;
+}
+.Info-Right-Content {
+  margin: 10vh;
+  border-style: dashed;
+  border-color: #c81539;
+  border-width: 4px;
 }
 
 
