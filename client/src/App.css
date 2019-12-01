@@ -42,26 +42,13 @@
   font-size: calc(10px + 1.5vmin);
 }
 .Info-Left-Content {
-  display: grid;
-  grid-template-rows: 10vh 1fr 1fr 10vh;
-  text-align: left;
   margin: 10vh;
 }
-.Info-Spacing-1 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
 .Info-About-General {
-  grid-row-start: 2;
-  grid-row-end: 3;
+  height: 40vh;
 }
 .Info-About-Specific {
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-.Info-Spacing-2 {
-  grid-row-start: 4;
-  grid-row-end: 5;
+  height: 40vh;
 }
 
 
