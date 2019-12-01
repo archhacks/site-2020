@@ -58,9 +58,10 @@
   min-height: 40vh;
 }
 .Info-Right-Content {
+  text-align: left;
   margin: 10vh;
   min-height: 80vh;
-  border-style: dashed 8px;
+  border-style: dashed;
   border-color: #c81539;
   border-width: 4px;
 }
