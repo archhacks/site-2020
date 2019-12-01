@@ -43,7 +43,7 @@
 }
 .Info-Left-Content {
   display: grid;
-  grid-template-rows: 10vh 1fr min-content 1fr min-content 10vh;
+  grid-template-rows: 10vh 1fr 1fr 10vh;
   text-align: left;
   margin: 10vh;
 }
