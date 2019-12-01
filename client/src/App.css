@@ -29,9 +29,6 @@
 .Info-Col {
   min-height: 100vh;
 }
-.Info-Right {
-  background-color: teal;
-}
 .Info-Header {
   font-size: calc(22px + 3vmin);
 }
@@ -66,10 +63,10 @@
   border-width: 4px;
 }
 .Info-FAQ-Text {
-  margin: 5vh;
+  margin: 3vh;
 }
 .Info-FAQ-Header {
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 
