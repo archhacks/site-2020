@@ -30,7 +30,10 @@
   font-size: calc(22px + 3vmin);
 }
 .Info-Text {
-  font-size: calc(8px + 1vmin);
+  font-size: calc(10px + 1.5vmin);
+}
+.Info-Spacing {
+  padding: 15vh;
 }
 .App-header {
   background-color: white;

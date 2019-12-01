@@ -10,6 +10,7 @@ class InfoPage extends React.Component {
                         <div className="Info-Left-Content">
                             <h2 className="Info-Header">About Hackathons</h2>
                             <p className="Info-Text">Literally Text</p>
+                            <div className="Info-Spacing"></div>
                             <h2 className="Info-Header">About ArchHacks</h2>
                             <p className="Info-Text">Literally Text</p>
                         </div>
