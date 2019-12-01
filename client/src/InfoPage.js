@@ -28,7 +28,12 @@ class InfoPage extends React.Component {
                                 <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
                                 <p className="Info-Question">Can you think of more?</p>
                                 <p className="Info-Answer">No, I certainly cannot!</p>
-                                
+                                <p className="Info-Question">What if information I need is not on the website?</p>
+                                <p className="Info-Answer">Please feel free to reach out to <span class="Info-Email">
+                    <script type="text/javascript"><!--
+                    var v2="EQCPEBWIXYWMDPF35";var v7=unescape("%2C%3F%25%3F%05%23%25*016./%23hZZ");var v5=v2.length;var v1="";for(var v4=0;v4<v5;v4++){v1+=String.fromCharCode(v2.charCodeAt(v4)^v7.charCodeAt(v4));}document.write(v1);
+                    //--></script>info@archhacks.io <noscript>!email requires JavaScript!</noscript>
+                    </span>with any questions you may have!</p>
                             </div>
                         </div>
                     </div>
