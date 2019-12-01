@@ -14,7 +14,7 @@ class InfoPage extends React.Component {
                             </div>
                             <div className="Info-About-Specific">
                                 <h2 className="Info-Header">About ArchHacks</h2>
-                                <p className="Info-Text">ArchHacks is a hackathon hosted at Washington University in St. Louis Nov. 4-6 for students of all backgrounds with a passion for technology, design, and, most importantly, building things. ArchHacks brings together more than 500 students from around the country for 48 hours of collaboration, problem solving, and building. We will provide a unique opportunity for students to work with resources and companies they cannot find anywhere else, and our theme, HealthTech, means that the products our participants create will make a real difference. You will have the opportunity to make invaluable connections with corporations, collaborate with friends and, most importantly, develop something that will contribute to the HealthTech community.</p>
+                                <p className="Info-Text">ArchHacks brings together more than 200 students of all backgrounds from around the country for 48 hours of collaboration, problem solving, and building. We will provide a unique opportunity for students to work with resources and companies they cannot find anywhere else. You will have the opportunity to make invaluable connections with corporations, collaborate with friends and, most importantly, develop something that will contribute to the HealthTech community.</p>
                             </div>
                         </div>
                     </div>
