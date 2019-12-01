@@ -20,9 +20,11 @@ class InfoPage extends React.Component {
                     </div>
                     <div className="col-md-5 Info-Col Info-Right">
                         <div className="Info-Right-Content">
-                            <h2 className="Info-Header">FAQ</h2>
-                            <p className="Info-Question">Question?</p>
-                            <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
+                            <div className="Info-FAQ-Text">
+                                <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
+                                <p className="Info-Question">Question?</p>
+                                <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
+                            </div>
                         </div>
                     </div>
                 </div>

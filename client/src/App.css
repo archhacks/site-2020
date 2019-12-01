@@ -65,5 +65,11 @@
   border-color: #c81539;
   border-width: 4px;
 }
+.Info-FAQ-Text {
+  margin: 5vh;
+}
+.Info-FAQ-Header {
+  margin-bottom: 5vh;
+}
 
 
