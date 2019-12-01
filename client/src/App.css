@@ -37,5 +37,12 @@
   font-size: calc(10px + 2vmin);
   color: #c81539;
 }
-
+.Info-Left-Content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  
+}
 
