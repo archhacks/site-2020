@@ -26,6 +26,13 @@
   
   color: #c81539;
 }
+.SponsorPage {
+  background-color: white;
+  min-height: 100vh;
+  /*justify-content: center;*/
+  
+  color: #c81539;
+}
 .Info-Col {
   min-height: 100vh;
 }
@@ -38,6 +45,7 @@
 }
 .Info-Question {
   font-size: calc(8px + 1.1vmin);
+  font-weight: bold;
   color: #c81539;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -79,5 +87,10 @@
 .Info-Email {
   color: #c81539;
 }
-
-
+.Sponsor-Header {
+  font-size: calc(22px + 3vmin);
+}
+.Sponsor-Text {
+  font-size: calc(10px + 1.5vmin);
+  color: gray;
+}
