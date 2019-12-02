@@ -38,9 +38,4 @@ class InfoPage extends React.Component {
         )
     }
 }
-//TODO:
-//fix sponsor emails
-//fill out sponsor page? with some content?
-//maybe max margin for mobile?
-//merge!
 export default InfoPage;
