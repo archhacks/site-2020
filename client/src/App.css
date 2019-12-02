@@ -9,24 +9,6 @@
 .LandingPage {
   height: 100vh;
 }
-
-.InfoPage {
-  background-color: white;
-  min-height: 100vh;
-  /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
-  color: #c81539;
-}
-.Info-Col {
-  min-height: 100vh;
-}
-.Info-Left {
-  background-color: gray;
-}
-.Info-Right {
-  background-color: teal;
-}
-
 .App-header {
   background-color: white;
   min-height: 100vh;
@@ -37,7 +19,83 @@
   font-size: calc(10px + 2vmin);
   color: #c81539;
 }
-
+.InfoPage {
+  background-color: white;
+  min-height: 100vh;
+  /*justify-content: center;*/
+  
+  color: #c81539;
+}
+.SponsorPage {
+  background-color: white;
+  min-height: 100vh;
+  /*justify-content: center;*/
+  
+  color: #c81539;
+}
+.Info-Col {
+  min-height: 100vh;
+}
+.Info-Header {
+  font-size: calc(22px + 3vmin);
+}
+.Info-Text {
+  font-size: calc(10px + 1.5vmin);
+  color: gray;
+}
+.Info-Question {
+  font-size: calc(8px + 1.1vmin);
+  font-weight: bold;
+  color: #c81539;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.Info-Answer {
+  font-size: calc(8px + 1.1vmin);
+  color: gray;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.Info-Left-Content {
+  margin: 10vh;
+  text-align: left;
+}
+.Info-About-General {
+  min-height: 40vh;
+}
+.Info-About-Specific {
+  min-height: 40vh;
+}
+.Info-Right-Content {
+  text-align: left;
+  margin: 10vh;
+  min-height: 80vh;
+  border-style: dashed;
+  border-color: #c81539;
+  border-width: 4px;
+}
+.Info-FAQ-Text {
+  margin-top: 0;
+  margin: 3vh;
+}
+.Info-FAQ-Header {
+  margin-bottom: 3vh;
+}
+.Sponsors-Email {
+  color: #c81539;
+}
+.Info-Email {
+  color: #c81539;
+}
+.Sponsor-Header {
+  font-size: calc(22px + 3vmin);
+  padding: 5vw;
+}
+.Sponsor-Text {
+  font-size: calc(10px + 1.5vmin);
+  color: gray;
+  padding: 10vw;
+}
 body{
   font-family: p22-underground, sans-serif;
 }
