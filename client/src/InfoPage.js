@@ -7,7 +7,7 @@ class InfoPage extends React.Component {
             <div className="InfoPage container-fluid">
                 <div className="row h-100 Info-Row">
                     <div className="col-md-7 Info-Col Info-Left">
-                        <div className="Info-Thick">
+                        <div className="Info-Left-Thick">
                             <div className="Info-Left-Gutter"></div>
                             <div className="Info-Left-Content">
                                 <div className="Info-About-General">
@@ -25,16 +25,20 @@ class InfoPage extends React.Component {
                     </div>
                     <div className="col-md-5 Info-Col Info-Right">
                         <div className="Info-Right-Content">
-                            <div className="Info-FAQ-Text">
-                                <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
-                                <p className="Info-Question">Why HealthTech?</p>
-                                <p className="Info-Answer">Today the health industry has expanded to incorporate engineering, technology, digital design, and more. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.</p>
-                                <p className="Info-Question">Question?</p>
-                                <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
-                                <p className="Info-Question">Can you think of more?</p>
-                                <p className="Info-Answer">No, I certainly cannot!</p>
-                                <p className="Info-Question">What if information I need is not on the website?</p>
-                                <p className="Info-Answer">Please feel free to reach out to <span className="Info-Email">info@archhacks.io</span> if you have any further questions!</p>
+                            <div className="Info-Right-Thick">
+                                <div className="Info-Right-Gutter"></div>
+                                <div className="Info-FAQ-Text">
+                                    <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
+                                    <p className="Info-Question">Why HealthTech?</p>
+                                    <p className="Info-Answer">Today the health industry has expanded to incorporate engineering, technology, digital design, and more. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.</p>
+                                    <p className="Info-Question">Question?</p>
+                                    <p className="Info-Answer">Answer!! Yes, the answer is yes!</p>
+                                    <p className="Info-Question">Can you think of more?</p>
+                                    <p className="Info-Answer">No, I certainly cannot!</p>
+                                    <p className="Info-Question">What if information I need is not on the website?</p>
+                                    <p className="Info-Answer">Please feel free to reach out to <span className="Info-Email">info@archhacks.io</span> if you have any further questions!</p>
+                                </div>
+                                <div className="Info-Right-Gutter"></div>
                             </div>
                         </div>
                     </div>
