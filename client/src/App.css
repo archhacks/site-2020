@@ -87,13 +87,14 @@
   text-align: left;
   margin: 10vh;
   min-height: 80vh;
-  border-style: dashed;
-  border-color: #c81539;
-  border-width: 4px;
+  
 }
 .Info-FAQ-Text {
   margin-top: 0;
   margin: 3vh;
+  border-style: dashed;
+  border-color: #c81539;
+  border-width: 4px;
 }
 .Info-FAQ-Header {
   margin-bottom: 3vh;
