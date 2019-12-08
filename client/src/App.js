@@ -28,7 +28,7 @@ function App() {
       <a id="mlh-trust-badge" style={aStyle} href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank">
         <img src={MLHBadge} alt="Major League Hacking 2020 Hackathon Season" style={imgStyle}/>
       </a>
-      <img src="bg.jpg" alt="Background Image"/>
+      <img src="/bg.jpg" alt="Background"/>
       <div className="LandingPage Page">
           
           <LandingPage />
