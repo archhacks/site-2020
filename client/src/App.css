@@ -62,11 +62,14 @@
 }
 .Info-Left-Content {
   text-align: left;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .Info-Left-Gutter {
   height: 100%;
   width: 10vh;
   max-width: 20vw;
+  float: none;
 }
 .Info-About-General {
   min-height: 40vh;
