@@ -33,7 +33,10 @@
   
   color: #c81539;
 }
-
+.Info-Thick{
+  display:flex;
+  flex-direction:row;
+}
 .Info-Col {
   min-height: 100vh;
 }
