@@ -44,7 +44,7 @@
   font-size: calc(22px + 3vmin);
 }
 .Info-Text {
-  font-size: calc(9px + 1.3vmin);
+  font-size: calc(9px + 1.2vmin);
   color: gray;
 }
 .Info-Question {
@@ -87,10 +87,10 @@
   float: none;
 }
 .Info-About-General {
-  min-height: 40vh;
+  min-height: 35vh;
 }
 .Info-About-Specific {
-  min-height: 40vh;
+  min-height: 35vh;
 }
 .Info-Right-Content {
   text-align: left;
