@@ -38,6 +38,7 @@
   
   color: #c81539;
 }
+
 .Info-Col {
   min-height: 100vh;
 }
@@ -62,8 +63,12 @@
   margin-bottom: 1vh;
 }
 .Info-Left-Content {
-  margin: 10vh;
   text-align: left;
+}
+.Info-Left-Gutter {
+  height: 100%;
+  width: 10vh;
+  max-width: 20vw;
 }
 .Info-About-General {
   min-height: 40vh;
