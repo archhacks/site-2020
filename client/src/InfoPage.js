@@ -25,8 +25,9 @@ class InfoPage extends React.Component {
                     </div>
                     <div className="col-md-5 Info-Col Info-Right">
                         <div className="Info-Right-Content">
+                            <div className="Info-Right-Gutter"></div>
                             <div className="Info-Right-Thick">
-                                <div className="Info-Right-Gutter"></div>
+                                
                                 <div className="Info-FAQ-Text">
                                     <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
                                     <p className="Info-Question">Why HealthTech?</p>
@@ -38,8 +39,9 @@ class InfoPage extends React.Component {
                                     <p className="Info-Question">What if information I need is not on the website?</p>
                                     <p className="Info-Answer">Please feel free to reach out to <span className="Info-Email">info@archhacks.io</span> if you have any further questions!</p>
                                 </div>
-                                <div className="Info-Right-Gutter"></div>
+                                
                             </div>
+                            <div className="Info-Right-Gutter"></div>
                         </div>
                     </div>
                 </div>
