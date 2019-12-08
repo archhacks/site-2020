@@ -71,6 +71,9 @@
   max-width: 20vw;
   float: none;
 }
+.Info-Right-Thick {
+  max-height: 80vh;
+}
 .Info-Right-Gutter {
   min-height: 100vh;
   width: 10vh;
