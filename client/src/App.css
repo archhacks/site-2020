@@ -73,6 +73,9 @@
 }
 .Info-Right-Thick {
   max-height: 80vh;
+  border-style: dashed;
+  border-color: #c81539;
+  border-width: 4px;
 }
 .Info-Right-Gutter {
   min-height: 100vh;
@@ -89,9 +92,7 @@
 .Info-Right-Content {
   text-align: left;
   min-height: 80vh;
-  border-style: dashed;
-  border-color: #c81539;
-  border-width: 4px;
+  
 }
 .Info-FAQ-Text {
   margin-top: 0;
