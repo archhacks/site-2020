@@ -92,6 +92,8 @@
 .Info-Right-Content {
   text-align: left;
   min-height: 80vh;
+  display: flex;
+  flex-grow: row;
   
 }
 .Info-FAQ-Text {
