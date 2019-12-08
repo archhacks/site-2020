@@ -72,6 +72,8 @@
   float: none;
 }
 .Info-Right-Thick {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   max-height: 80vh;
   border-style: dashed;
   border-color: #c81539;
