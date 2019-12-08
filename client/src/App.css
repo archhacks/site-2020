@@ -19,6 +19,11 @@
   font-size: calc(10px + 2vmin);
   color: #c81539;
 }
+@media(max-aspect-ratio: 1/1){
+  .Info-Left-Content{
+    width: 100vw;
+  }
+}
 .InfoPage {
   background-color: white;
   min-height: 100vh;

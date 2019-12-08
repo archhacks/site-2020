@@ -5,7 +5,7 @@ class InfoPage extends React.Component {
     render() {
         return (
             <div className="InfoPage container-fluid">
-                <div className="row h-100">
+                <div className="row h-100 Info-Row">
                     <div className="col-md-7 Info-Col Info-Left">
                         <div className="Info-Left-Content">
                             <div className="Info-About-General">
