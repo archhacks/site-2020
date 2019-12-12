@@ -5,7 +5,7 @@
     margin-top: -3vh;
     font-weight: 600;
     /* font-size: 80px; */
-    font-size: 5vw;
+    font-size: calc(22px + 3vmin);
     letter-spacing: 8px;
     margin-bottom: 0px;
 }
@@ -17,7 +17,7 @@
 }
 .landing-gray{
     color: #A2A2A2;
-    font-size: 27px; 
+    font-size: calc(12px + 1.5vmin);
     font-weight: 500;
     font-style: normal;
     margin-top: 0;
