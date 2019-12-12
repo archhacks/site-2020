@@ -5,10 +5,17 @@
 .App-logo {
   height: 40vmin;
 }
+.Landing-Title {
+  font-size: calc(22px + 3vmin);
 
+}
+.landing-gray {
+  font-size: calc(12px + 1.5vmin);
+}
 .LandingPage {
   height: 100vh;
 }
+
 .App-header {
   background-color: white;
   min-height: 100vh;
