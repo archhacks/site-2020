@@ -47,7 +47,7 @@ form{
     max-width: 300px; */
     /* border: 2px solid #C81539; */
     font-size: calc(12px + 1.1vmin);
-    max-width: 60%;
+    max-width: 65vw;
     padding: 5px 25px;
     outline: none;
     margin: 0;
