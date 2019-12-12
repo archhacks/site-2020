@@ -11,7 +11,7 @@ class LandingPage extends React.Component {
             
             <header className="App-header container">
 
-                <img src={Logo} alt="ArchHacks Logo" id="landing-logo" width= "30%"/>
+                <img src={Logo} alt="ArchHacks Logo" id="landing-logo"/>
                 <h1 className="Landing-Title" id="heading"><span id="heading-gray">ARCH</span><span id="heading-red">HACKS</span></h1>
                 <p className="landing-gray">Washington University in St. Louis</p>
                 <p className="landing-gray">February 21-23 | St. Louis, Missouri</p>
