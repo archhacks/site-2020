@@ -1,6 +1,6 @@
 #landing-logo{
     margin: 0;
-    width: 450px;
+    width: 225px;
     min-width: 30%;
     max-width: 60%;
     padding-bottom: 3vh;
@@ -47,6 +47,7 @@ form{
     max-width: 300px; */
     /* border: 2px solid #C81539; */
     font-size: calc(12px + 1.1vmin);
+    max-width: 60%;
     padding: 5px 25px;
     outline: none;
     margin: 0;
