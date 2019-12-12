@@ -2,7 +2,19 @@ import React from 'react';
 import Logo from "./logo.png";
 import './LandingPage.css';
 
+const dNone = {
+    display: 'none'
+}
+
+const overThere = {
+    position: 'absolute',
+    left: '-5000px'
+}
+
 class LandingPage extends React.Component {
+
+    
+
     render() {
 
 
@@ -19,10 +31,10 @@ class LandingPage extends React.Component {
                 <form action="https://archhacks.us16.list-manage.com/subscribe/post?u=9bd66ca0a204f98ec01cdd5e2&id=5c42da0208" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" className="form-inline">
                     <input type="email" name="EMAIL" placeholder="Enter your email..." id="mce-EMAIL" className="email-input"/>
                     <div id="mce-responses" class="clear">
-                        <div class="response field" id="mce-error-response" style="display:none"></div>
-                        <div class="response field" id="mce-success-response" style="display:none"></div>
+                        <div class="response field" id="mce-error-response" style={dNone}></div>
+                        <div class="response field" id="mce-success-response" style={dNone}></div>
                     </div>
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <div style={overThere} aria-hidden="true">
                         <input type="text" name="b_9bd66ca0a204f98ec01cdd5e2_5c42da0208" tabindex="-1" value=""/>
                     </div>
                     <input type="submit" value="Subscribe" name="subscribe" className="join-button" id="mc-embedded-subscribe"/>
