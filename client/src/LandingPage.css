@@ -1,6 +1,7 @@
 #landing-logo{
-    width: 450px;
-    max-width: 30%;
+    width: 30%;
+    min-width: 450px;
+    
 }
 #heading{
     margin-top: -3vh;
