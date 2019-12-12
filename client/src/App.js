@@ -31,7 +31,7 @@ function App() {
           
           <LandingPage />
           <InfoPage />
-          <SponsorPage />
+          
       </div>
     </div>
   );
