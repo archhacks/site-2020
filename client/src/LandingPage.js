@@ -16,9 +16,16 @@ class LandingPage extends React.Component {
                 <p className="landing-gray">Washington University in St. Louis</p>
                 <p className="landing-gray">February 21-23 | St. Louis, Missouri</p>
                 {/* <button id="landing-applyButton">Apply</button> */}
-                <form className="form-inline">
-                    <input type="text" placeholder="Enter your email..." id="email-input"/>
-                    <input type="submit" value="Join" id="join-button"/>
+                <form action="https://archhacks.us16.list-manage.com/subscribe/post?u=9bd66ca0a204f98ec01cdd5e2&id=5c42da0208" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" className="form-inline">
+                    <input type="email" name="EMAIL" placeholder="Enter your email..." id="mce-EMAIL" className="email-input"/>
+                    <div id="mce-responses" class="clear">
+                        <div class="response field" id="mce-error-response" style="display:none"></div>
+                        <div class="response field" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_9bd66ca0a204f98ec01cdd5e2_5c42da0208" tabindex="-1" value=""/>
+                    </div>
+                    <input type="submit" value="Subscribe" name="subscribe" className="join-button" id="mc-embedded-subscribe"/>
                 </form>
 
             </header>
