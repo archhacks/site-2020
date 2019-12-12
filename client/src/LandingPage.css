@@ -41,13 +41,12 @@
 }
 form{
     margin-top: 3vh;
-    
 }
 #email-input{
     /* width: 100%;
     max-width: 300px; */
     /* border: 2px solid #C81539; */
-    font-size: calc(12px + 1.3vmin);
+    font-size: calc(12px + 1.1vmin);
     padding: 5px 25px;
     outline: none;
     margin: 0;
@@ -57,7 +56,7 @@ form{
     background-color:  #C81539;
     border: 3px solid  #C81539;
     /* border-radius: 5px; */
-    font-size: calc(12px + 1.3vmin);
+    font-size: calc(12px + 1.1vmin);
     color: white;
     padding: 3px 18px;
     margin-left: 2vw;
