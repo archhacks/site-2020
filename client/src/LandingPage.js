@@ -26,7 +26,7 @@ class LandingPage extends React.Component {
                 <img src={Logo} alt="ArchHacks Logo" id="landing-logo"/>
                 <h1 className="Landing-Title" id="heading"><span id="heading-gray">ARCH</span><span id="heading-red">HACKS</span></h1>
                 <p className="landing-gray">Washington University in St. Louis</p>
-                <p className="landing-gray">February 21-23 | St. Louis, Missouri</p>
+                <p className="landing-gray">February 28-March 1 | St. Louis, Missouri</p>
                 {/* <button id="landing-applyButton">Apply</button> */}
                 <form action="https://archhacks.us16.list-manage.com/subscribe/post?u=9bd66ca0a204f98ec01cdd5e2&id=5c42da0208" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" className="form-inline">
                     <input type="email" name="EMAIL" placeholder="Enter your email..." id="mce-EMAIL" className="email-input"/>
