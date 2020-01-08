@@ -13,7 +13,7 @@ server.listen(3456);
 //HANDLE AJAX REQUESTS
 app.use(express.json());
 
-app.use("/client", express.static(__dirname + '/client'));
+app.use(express.static(__dirname + '../client'));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, '../client/index.html'));
