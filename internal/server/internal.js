@@ -1,9 +1,9 @@
-const mysql = require('mysql')
+//const mysql = require('mysql')
 const express = require('express')
 const app = express()
 const http = require("http")
-const session = require('express-session')
-const MemoryStore = require('memorystore')(session)
+//const session = require('express-session')
+//const MemoryStore = require('memorystore')(session)
 const path = require('path')
 
 const server = http.Server(app)
