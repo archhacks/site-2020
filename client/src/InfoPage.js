@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+var faq = "General";
+
+
 class InfoPage extends React.Component {
     render() {
         return (
@@ -32,9 +35,9 @@ class InfoPage extends React.Component {
                                 <div className="Info-FAQ-Text">
                                     <div className="Info-FAQ-Top-Row">
                                         <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
-                                        <button className="Info-FAQ-Select FAQ-General FAQ-Selected">General</button>
-                                        <button className="Info-FAQ-Select FAQ-Hacking">Hacking</button>
-                                        <button className="Info-FAQ-Select FAQ-Logistics">Logistics</button>
+                                        <button className="Info-FAQ-Select FAQ-General-B FAQ-Selected-B">General</button>
+                                        <button className="Info-FAQ-Select FAQ-Hacking-B FAQ-Unselected-B">Hacking</button>
+                                        <button className="Info-FAQ-Select FAQ-Logistics-B FAQ-Unselected-B">Logistics</button>
                                     </div>
                                     <p className="Info-Question">Why HealthTech?</p>
                                     <p className="Info-Answer">Today the health industry has expanded to incorporate engineering, technology, digital design, and more. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.</p>
@@ -53,4 +56,23 @@ class InfoPage extends React.Component {
         )
     }
 }
+var t1 = document.getElementsByClassName("FAQ-General-B")[0];
+var t2 = document.getElementsByClassName("FAQ-Hacking-B")[0];
+var t3 = document.getElementsByClassName("FAQ-Logistics-B")[0];
+t1.addEventListener("click", () => {
+    t1.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+    t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+    t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+})
+t2.addEventListener("click", () => {
+    t2.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+    t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+    t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+})
+t3.addEventListener("click", () => {
+    t3.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+    t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+    t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+})
+
 export default InfoPage;

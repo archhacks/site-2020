@@ -139,10 +139,17 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
 }
 .Info-FAQ-Select {
   border-radius: 2px;
   padding: 2px;
 }
-
+.FAQ-Selected-B {
+  color: white;
+  background-color: #c81539;
+}
+.FAQ-Unselected-B {
+  background-color: white;
+  color: #c81539;
+}
