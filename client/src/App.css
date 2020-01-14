@@ -128,8 +128,11 @@ body{
   font-family: p22-underground, sans-serif;
 }
 .fab {
-  padding: 20px;
+  margin: 20px;
   color: lightgray;
 
+}
+.social_media {
+  float: right;
 }
 
