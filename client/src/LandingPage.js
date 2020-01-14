@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
                 <p className="landing-gray">HealthTech | February 28-March 1</p>
                 {/* <button id="landing-applyButton">Apply</button> */}
                 
-                    <input type="submit" value="Apply" na   e="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
+                <input type="submit" value="Apply" na   e="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
                 
 
             </header>
