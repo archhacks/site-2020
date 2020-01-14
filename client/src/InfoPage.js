@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 
-var faq = "General";
-
 
 class InfoPage extends React.Component {
     componentDidMount(){
@@ -29,7 +27,7 @@ class InfoPage extends React.Component {
         return (
             <div className="InfoPage container-fluid">
                 <div className="row h-100 Info-Row">
-                    <div className="col-lg-7 Info-Col Info-Left">
+                    <div className="col-xl-7 Info-Col Info-Left">
                         <div className="Info-Left-Thick">
                             <div className="Info-Left-Gutter"></div>
                             <div className="Info-Left-Content">
@@ -47,7 +45,7 @@ class InfoPage extends React.Component {
                         </div>
                         
                     </div>
-                    <div className="col-lg-5 Info-Col Info-Right">
+                    <div className="col-xl-5 Info-Col Info-Right">
                         <div className="Info-Right-Content">
                             <div className="Info-Right-Gutter"></div>
                             <div className="Info-Right-Thick">
