@@ -151,13 +151,13 @@ body{
 }
 .Info-FAQ-Select {
   font-size: calc(7px + 1.1vmin);
-  outline: 1px;
+  outline: 0;
   outline-color: #c81539;
   border: 0px;
   border-color: #c81539;
   border-radius: 2px;
-  padding: 4px 10px;
-  margin: 7px;
+  padding: 4px 8px;
+  margin: 5px;
 }
 .FAQ-Selected-B {
   color: white;
