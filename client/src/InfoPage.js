@@ -32,7 +32,7 @@ class InfoPage extends React.Component {
                                 <div className="Info-FAQ-Text">
                                     <div className="Info-FAQ-Top-Row">
                                         <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
-                                        <button className="Info-FAQ-Select FAQ-General">General</button>
+                                        <button className="Info-FAQ-Select FAQ-General FAQ-Selected">General</button>
                                         <button className="Info-FAQ-Select FAQ-Hacking">Hacking</button>
                                         <button className="Info-FAQ-Select FAQ-Logistics">Logistics</button>
                                     </div>

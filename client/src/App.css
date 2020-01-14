@@ -136,4 +136,9 @@ body{
   position: absolute;
   right: 0;
 }
+.Info-FAQ-Select {
+  display: inline;
+  border-radius: 2px;
+  padding: 2px;
+}
 
