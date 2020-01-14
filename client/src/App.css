@@ -149,6 +149,7 @@ body{
   cursor: pointer;
 }
 .Info-FAQ-Select {
+  font-size: calc(7px + 1.1vmin);
   outline: 1px;
   outline-color: #c81539;
   border: 0px;
