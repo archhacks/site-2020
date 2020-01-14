@@ -5,34 +5,52 @@ import './App.css';
 class InfoPage extends React.Component {
     componentDidMount(){
         var t1 = document.getElementsByClassName("FAQ-General-B")[0];
-        var t1a = document.getElementsByClassName("FAQ-General")[0];
+        var t1a = document.getElementsByClassName("FAQ-General");
         var t2 = document.getElementsByClassName("FAQ-Hacking-B")[0];
-        var t2a = document.getElementsByClassName("FAQ-Hacking")[0];
+        var t2a = document.getElementsByClassName("FAQ-Hacking");
         var t3 = document.getElementsByClassName("FAQ-Logistics-B")[0];
-        var t3a = document.getElementsByClassName("FAQ-Logistics")[0];
+        var t3a = document.getElementsByClassName("FAQ-Logistics");
         t1.addEventListener("click", () => {
             t1.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t1a.classList.remove("hide-this");
-            t2a.classList.add("hide-this");
-            t3a.classList.add("hide-this");
+            t1a.forEach(t => {
+                t.classList.remove("hide-this");
+            })
+            t2a.forEach(t => {
+                t.classList.add("hide-this");
+            })
+            t3a.forEach(t => {
+                t.classList.add("hide-this");
+            })
         })
         t2.addEventListener("click", () => {
             t2.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t2a.classList.remove("hide-this");
-            t1a.classList.add("hide-this");
-            t3a.classList.add("hide-this");
+            t2a.forEach(t => {
+                t.classList.remove("hide-this");
+            })
+            t1a.forEach(t => {
+                t.classList.add("hide-this");
+            })
+            t3a.forEach(t => {
+                t.classList.add("hide-this");
+            })
         })
         t3.addEventListener("click", () => {
             t3.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t3a.classList.remove("hide-this");
-            t2a.classList.add("hide-this");
-            t1a.classList.add("hide-this");
+            t3a.forEach(t => {
+                t.classList.remove("hide-this");
+            })
+            t2a.forEach(t => {
+                t.classList.add("hide-this");
+            })
+            t1a.forEach(t => {
+                t.classList.add("hide-this");
+            })
         })
     }
     render() {
