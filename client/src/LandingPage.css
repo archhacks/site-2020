@@ -54,6 +54,7 @@ form{
 
 }
 .join-button{
+    margin-top: 3vh;
     background-color:  #C81539;
     border: 3px solid  #C81539;
     /* border-radius: 5px; */
