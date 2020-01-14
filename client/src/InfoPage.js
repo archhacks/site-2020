@@ -5,6 +5,26 @@ var faq = "General";
 
 
 class InfoPage extends React.Component {
+    componentDidMount(){
+        var t1 = document.getElementsByClassName("FAQ-General-B")[0];
+        var t2 = document.getElementsByClassName("FAQ-Hacking-B")[0];
+        var t3 = document.getElementsByClassName("FAQ-Logistics-B")[0];
+        t1.addEventListener("click", () => {
+            t1.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+            t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+            t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+        })
+        t2.addEventListener("click", () => {
+            t2.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+            t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+            t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+        })
+        t3.addEventListener("click", () => {
+            t3.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
+            t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+            t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
+        })
+    }
     render() {
         return (
             <div className="InfoPage container-fluid">
@@ -56,23 +76,6 @@ class InfoPage extends React.Component {
         )
     }
 }
-var t1 = document.getElementsByClassName("FAQ-General-B")[0];
-var t2 = document.getElementsByClassName("FAQ-Hacking-B")[0];
-var t3 = document.getElementsByClassName("FAQ-Logistics-B")[0];
-t1.addEventListener("click", () => {
-    t1.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
-    t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-    t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-})
-t2.addEventListener("click", () => {
-    t2.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
-    t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-    t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-})
-t3.addEventListener("click", () => {
-    t3.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
-    t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-    t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-})
+
 
 export default InfoPage;
