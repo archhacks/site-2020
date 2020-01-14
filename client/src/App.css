@@ -106,9 +106,6 @@
   margin: 3vh;
   
 }
-.Info-FAQ-Header {
-  margin-bottom: 3vh;
-}
 .Sponsors-Email {
   color: #c81539;
 }
@@ -136,6 +133,7 @@ body{
   right: 0;
 }
 .Info-FAQ-Top-Row {
+  margin-bottom: 3vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
