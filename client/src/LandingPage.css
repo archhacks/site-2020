@@ -51,7 +51,7 @@
 }
 .news-a, .news-a:hover {
     padding: 13px;
-    text-decoration: none;
+    text-decoration: rgb(160,160,160);
 }
 .newsletter {
     text-decoration: none;
