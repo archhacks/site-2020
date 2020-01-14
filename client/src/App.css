@@ -139,7 +139,12 @@ body{
   justify-content: flex-start;
   align-items: center;
 }
+.Info-FAQ-Select:focus {
+  outline: 0;
+}
 .Info-FAQ-Select {
+  outline: none;
+  border: 0;
   border-radius: 2px;
   padding: 2px;
 }
