@@ -133,6 +133,7 @@ body{
 
 }
 .social_media {
+  display: absolute;
   float: right;
 }
 
