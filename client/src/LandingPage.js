@@ -37,7 +37,7 @@ class LandingPage extends React.Component {
                     <div style={overThere} aria-hidden="true">
                         <input type="text" name="b_9bd66ca0a204f98ec01cdd5e2_5c42da0208" tabindex="-1" value=""/>
                     </div>
-                    <input type="submit" value="Subscribe" name="Apply" className="join-button" id="mc-embedded-subscribe"/>
+                    <input type="submit" value="Apply" name="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
                 </form>
 
             </header>
