@@ -168,3 +168,6 @@ body{
   background-color: lightgray;
   color: #c81539;
 }
+.hide-this {
+  display: none;
+}
