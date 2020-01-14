@@ -142,13 +142,16 @@ body{
 .Info-FAQ-Select:focus {
   outline: 0;
 }
+.Info-FAQ-Select:hover {
+  cursor: pointer;
+}
 .Info-FAQ-Select {
   outline: none;
   border: 3px;
   border-color: #c81539;
   border-radius: 2px;
-  padding: 6px 2px;
-  margin: 5px;
+  padding: 2px 6px;
+  margin: 8px;
 }
 .FAQ-Selected-B {
   color: white;
