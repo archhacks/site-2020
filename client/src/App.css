@@ -43,10 +43,10 @@
   min-height: 100vh;
 }
 .Info-Header {
-  font-size: calc(22px + 3vmin);
+  font-size: calc(19px + 2.5vmin);
 }
 .Info-Text {
-  font-size: calc(9px + 1.2vmin);
+  font-size: calc(8px + 1.1vmin);
   color: gray;
 }
 .Info-Question {
