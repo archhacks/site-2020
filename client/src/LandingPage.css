@@ -65,13 +65,16 @@ form{
     cursor: pointer;
 }
 .news-a {
-    padding: 3px 13px;
+    padding: 13px;
+}
+.newsletter:hover {
+    text-decoration: none;
 }
 .newsletter {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: lightgray;
-    font-size: calc(5px + 1.1vmin);
+    color: gray;
+    font-size: calc(3px + 1.1vmin);
 }
 
