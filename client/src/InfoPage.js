@@ -14,13 +14,13 @@ class InfoPage extends React.Component {
             t1.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t1a.forEach(t => {
+            Array.prototype.forEach.call(t1a, (t) => {
                 t.classList.remove("hide-this");
             })
-            t2a.forEach(t => {
+            Array.prototype.forEach.call(t2a, (t) => {
                 t.classList.add("hide-this");
             })
-            t3a.forEach(t => {
+            Array.prototype.forEach.call(t3a, (t) => {
                 t.classList.add("hide-this");
             })
         })
@@ -28,13 +28,13 @@ class InfoPage extends React.Component {
             t2.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t3.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t2a.forEach(t => {
+            Array.prototype.forEach.call(t2a, (t) => {
                 t.classList.remove("hide-this");
             })
-            t1a.forEach(t => {
+            Array.prototype.forEach.call(t1a, (t) => {
                 t.classList.add("hide-this");
             })
-            t3a.forEach(t => {
+            Array.prototype.forEach.call(t3a, (t) => {
                 t.classList.add("hide-this");
             })
         })
@@ -42,13 +42,13 @@ class InfoPage extends React.Component {
             t3.classList.replace("FAQ-Unselected-B","FAQ-Selected-B");
             t2.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
             t1.classList.replace("FAQ-Selected-B","FAQ-Unselected-B");
-            t3a.forEach(t => {
+            Array.prototype.forEach.call(t3a, (t) => {
                 t.classList.remove("hide-this");
             })
-            t2a.forEach(t => {
+            Array.prototype.forEach.call(t2a, (t) => {
                 t.classList.add("hide-this");
             })
-            t1a.forEach(t => {
+            Array.prototype.forEach.call(t1a, (t) => {
                 t.classList.add("hide-this");
             })
         })
