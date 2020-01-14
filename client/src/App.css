@@ -107,6 +107,7 @@
   
 }
 .Info-FAQ-Header {
+  display: inline;
   margin-bottom: 3vh;
 }
 .Sponsors-Email {
