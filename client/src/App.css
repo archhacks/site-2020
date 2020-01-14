@@ -127,4 +127,9 @@
 body{
   font-family: p22-underground, sans-serif;
 }
+.fab {
+  padding: 20px;
+  color: gray;
+  
+}
 
