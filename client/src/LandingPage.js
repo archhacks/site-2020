@@ -36,7 +36,7 @@ class LandingPage extends React.Component {
 
                 <input type="submit" value="Apply" na   e="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
                 <a className="news-a" href="http://eepurl.com/gPL1Fr"><p className="newsletter">Want to join the newsletter too?</p>
-                <p className="newsletter">Sign up here</p></a>
+                <p className="newsletter">Sign up here.</p></a>
                 
 
             </header>
