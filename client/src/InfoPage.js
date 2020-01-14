@@ -55,9 +55,9 @@ class InfoPage extends React.Component {
                                 <div className="Info-FAQ-Text">
                                     <div className="Info-FAQ-Top-Row">
                                         <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
-                                        <input type="button" className="Info-FAQ-Select FAQ-General-B FAQ-Selected-B">General</input>
-                                        <input type="button" className="Info-FAQ-Select FAQ-Hacking-B FAQ-Unselected-B">Hacking</input>
-                                        <input type="button" className="Info-FAQ-Select FAQ-Logistics-B FAQ-Unselected-B">Logistics</input>
+                                        <input type="button" value="General" className="Info-FAQ-Select FAQ-General-B FAQ-Selected-B"/>
+                                        <input type="button" value="Hacking" className="Info-FAQ-Select FAQ-Hacking-B FAQ-Unselected-B"/>
+                                        <input type="button" value="Logistics" className="Info-FAQ-Select FAQ-Logistics-B FAQ-Unselected-B"/>
                                     </div>
                                     <p className="Info-Question">Why HealthTech?</p>
                                     <p className="Info-Answer">Today the health industry has expanded to incorporate engineering, technology, digital design, and more. We have chosen this theme for ArchHacks because the HealthTech industry is growing exponentially with some of the most innovative technology available today, and we as college students will be the driving force behind this development.</p>
