@@ -60,21 +60,19 @@ form{
     /* border-radius: 5px; */
     font-size: calc(12px + 1.1vmin);
     color: white;
-    padding: 3px 18px;
+    padding: 18px;
     margin-left: 2vw;
     cursor: pointer;
 }
 .news-a {
     padding: 13px;
-}
-.newsletter:hover {
     text-decoration: none;
 }
 .newsletter {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: gray;
+    color: lightgray;
     font-size: calc(3px + 1.1vmin);
 }
 
