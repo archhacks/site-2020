@@ -128,14 +128,6 @@
 body{
   font-family: p22-underground, sans-serif;
 }
-.fab {
-  margin: 20px;
-  color: lightgray;
-}
-.social_media {
-  position: absolute;
-  right: 0;
-}
 .Info-FAQ-Top-Row {
   margin-bottom: 3vh;
   display: flex;
