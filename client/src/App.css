@@ -101,6 +101,9 @@
   flex-grow: row;
   
 }
+.Info-FAQ-Header {
+  margin-bottom: 0;
+}
 .Info-FAQ-Text {
   margin-top: 0;
   margin: 3vh;
@@ -159,7 +162,7 @@ body{
   background-color: #c81539;
 }
 .FAQ-General-B {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .FAQ-Unselected-B {
   background-color: white;
