@@ -64,8 +64,8 @@
 }
 .Info-Left-Content {
   text-align: left;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
 }
 .Info-Left-Gutter {
   min-height: 100vh;
@@ -89,10 +89,10 @@
   float: none;
 }
 .Info-About-General {
-  min-height: 35vh;
+  min-height: 42vh;
 }
 .Info-About-Specific {
-  min-height: 35vh;
+  min-height: 42vh;
 }
 .Info-Right-Content {
   text-align: left;
