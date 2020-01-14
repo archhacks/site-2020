@@ -158,6 +158,9 @@ body{
   color: white;
   background-color: #c81539;
 }
+.FAQ-General-B {
+  margin-left: 20px;
+}
 .FAQ-Unselected-B {
   background-color: white;
   color: #c81539;
