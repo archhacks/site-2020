@@ -19,7 +19,12 @@ class InfoPage extends React.Component {
                                     <p className="Info-Text">ArchHacks brings together more than 200 students of all backgrounds from around the country for 48 hours of collaboration, problem solving, and building. We will provide a unique opportunity for students to work with resources and companies they cannot find anywhere else. You will have the opportunity to make invaluable connections with corporations, collaborate with friends and, most importantly, develop something that will contribute to the HealthTech community.</p>
                                 </div>
                             </div>
-                            <div className="Info-Left-Gutter"></div>
+                            <div className="Info-Left-Gutter">
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-medium-m"></i>
+                            </div>
                         </div>
                         
                     </div>
