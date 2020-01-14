@@ -64,4 +64,8 @@ form{
     margin-left: 2vw;
     cursor: pointer;
 }
+.newsletter {
+    color: lightgray;
+    font-size: calc(7px + 1vmin);
+}
 
