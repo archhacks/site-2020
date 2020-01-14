@@ -50,14 +50,14 @@
   color: gray;
 }
 .Info-Question {
-  font-size: calc(8px + 1.1vmin);
+  font-size: calc(7px + 1.1vmin);
   font-weight: bold;
   color: #c81539;
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
 .Info-Answer {
-  font-size: calc(7px + 1vmin);
+  font-size: calc(6px + 1vmin);
   color: gray;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -77,7 +77,7 @@
 .Info-Right-Thick {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  max-height: 80vh;
+  max-height: 90vh;
   border-style: dashed;
   border-color: #c81539;
   border-width: 4px;
