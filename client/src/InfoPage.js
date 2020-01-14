@@ -90,7 +90,7 @@ class InfoPage extends React.Component {
                                     <p className="Info-Question FAQ-General">When and where is ArchHacks?</p>
                                     <p className="Info-Answer FAQ-General">ArchHacks will be held from February 28th - March 1st in Anhueser-Busch Hall on the Washington University Campus in St. Louis.</p>
                                     <p className="Info-Question FAQ-General">Is there a theme to ArchHacks?</p>
-                                    <p className="Info-Answer FAQ-General">The theme of ArchHacks 2019 is HealthTech! This is an interdisciplinary field combining big strengths of WashU.</p>
+                                    <p className="Info-Answer FAQ-General">The theme of ArchHacks is HealthTech! This is an interdisciplinary field combining big strengths of WashU.</p>
                                     <p className="Info-Question FAQ-General">Why Washington University in St. Louis?</p>
                                     <p className="Info-Answer FAQ-General">Both the tech and health communities in St. Louis have recently exploded, making it one of the top ten locations for HealthTech development (The Huffington Post). Our local sponsors are leading players in the health industry in St. Louis and Washington University is among the handful of medical schools leading the nation. St. Louis is a center for developing HealthTech innovations.</p>
                                     <p className="Info-Question FAQ-General">Who can participate?</p>
