@@ -107,7 +107,6 @@
   
 }
 .Info-FAQ-Header {
-  display: inline;
   margin-bottom: 3vh;
 }
 .Sponsors-Email {
@@ -131,14 +130,18 @@ body{
 .fab {
   margin: 20px;
   color: lightgray;
-
 }
 .social_media {
   position: absolute;
   right: 0;
 }
+.Info-FAQ-Top-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
 .Info-FAQ-Select {
-  display: inline;
   border-radius: 2px;
   padding: 2px;
 }
