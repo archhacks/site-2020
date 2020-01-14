@@ -75,7 +75,7 @@ class InfoPage extends React.Component {
                         </div>
                         
                     </div>
-                    <div className="col-xl-6 Info-Col Info-Right">
+                    <div className="col-xl-7 Info-Col Info-Right">
                         <div className="Info-Right-Content">
                             <div className="Info-Right-Gutter"></div>
                             <div className="Info-Right-Thick">
