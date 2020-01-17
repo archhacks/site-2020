@@ -59,15 +59,7 @@
     color: rgb(160,160,160);
     font-size: calc(4px + 1.2vmin);
 }
-.fab {
-    margin: 20px;
-    color: lightgray;
-  }
-  .social_media {
-    position: absolute;
-    right: 0;
-    margin: 10px;
-}
+
 @media only screen and (max-width: 600px) {
     .social_media {
       margin-left: auto;

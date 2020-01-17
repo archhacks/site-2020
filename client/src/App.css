@@ -110,6 +110,16 @@
   margin: 3vh;
   
 }
+.fab {
+  margin: 20px;
+  color: lightgray;
+}
+.social_media {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
 .Sponsors-Email {
   color: #c81539;
 }

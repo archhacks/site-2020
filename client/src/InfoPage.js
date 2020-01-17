@@ -56,6 +56,12 @@ class InfoPage extends React.Component {
     render() {
         return (
             <div className="InfoPage container-fluid">
+                <div className="social_media">
+                    <a href="https://github.com/archhacks"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.facebook.com/archhacks/"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com/archhacks"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://medium.com/@ArchHacks"><i class="fab fa-medium-m fa-2x"></i></a>
+                </div>
                 <div className="row h-100 Info-Row">
                     <div className="col-xl-5 Info-Col Info-Left">
                         <div className="Info-Left-Thick">
@@ -79,7 +85,7 @@ class InfoPage extends React.Component {
                         <div className="Info-Right-Content">
                             <div className="Info-Right-Gutter"></div>
                             <div className="Info-Right-Thick">
-                                
+                            
                                 <div className="Info-FAQ-Text">
                                     <div className="Info-FAQ-Top-Row">
                                         <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
