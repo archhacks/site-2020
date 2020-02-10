@@ -17,12 +17,12 @@ function SchedElm(props){
     //props.loc: location
     return(
         <div className="schedElm">
-            <div className="schedData">
-                <div className="schedLeft">
+            <div className="schedData row">
+                <div className="schedLeft col-sm">
                     <p className="schedText schedElmTime">{props.start} - {props.end}</p>
                 </div>
-                <p className="schedText schedElmName">{props.name}</p>
-                <p className="schedText schedElmLoc">{props.loc}</p>
+                <p className="schedText schedElmName col-sm">{props.name}</p>
+                <p className="schedText schedElmLoc col-sm">{props.loc}</p>
             </div>
             <hr className="schedHR"></hr>
         </div>
