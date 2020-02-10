@@ -3,6 +3,7 @@ import './App.css';
 import MLHBadge from "./MLHBadge.png";
 import LandingPage from './LandingPage.js'
 import InfoPage from './InfoPage.js'
+import SchedulePage from './SchedulePage.js'
 import SponsorPage from './SponsorPage.js'
 
 function App() {
