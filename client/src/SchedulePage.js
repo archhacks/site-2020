@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from "./logo.png";
 import './LandingPage.css';
+import './SchedulePage.css';
 import './App.css';
 
 
