@@ -35,7 +35,9 @@ class SchedulePage extends React.Component {
 
     render() {
 
-
+//TODO
+//CENTER IMAGE HEIGHT
+//HIDE IMAGE ON MOBILE
         return (
             <div className="schedulePage">   
                 <div className="scheduleAndPic">
