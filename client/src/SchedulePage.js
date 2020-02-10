@@ -19,7 +19,6 @@ function SchedElm(props){
         <div className="schedElm">
             <div className="schedData">
                 <div className="schedLeft">
-                    <img></img>
                     <p className="schedText schedElmTime">{props.start} - {props.end}</p>
                 </div>
                 <p className="schedText schedElmName">{props.name}</p>
