@@ -53,7 +53,7 @@ class SchedulePage extends React.Component {
                             <SchedElm start="10:15 PM" end="10:45 PM" name="Awards" loc="WashU"/>
                         </div>
                     </div>
-                    <img className="scheduleImage" src="../wuhack.jpg" alt="previous archhacks pic" />
+                    <img className="scheduleImage" src="../wuhack.jpg" alt="previous archhacks pic" height="100%"/>
                 </div>
                 <div className="social_media">
                         <a href="https://github.com/archhacks"><i class="fab fa-github fa-2x"></i></a>
