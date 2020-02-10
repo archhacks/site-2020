@@ -8,6 +8,7 @@
 }
 .schedText {
     width: fit-content;
+    margin-bottom: 0;
 }
 .schedData {
     display: flex;
