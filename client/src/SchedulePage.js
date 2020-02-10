@@ -40,6 +40,7 @@ class SchedulePage extends React.Component {
             <div className="schedulePage">   
                 <div className="scheduleAndPic">
                     <div className="schedule">
+                        <div className="scheduleNothing"></div>
                         <h1 className="scheduleTitle">Schedule</h1>
                         <input type="button" value="General" className="Info-FAQ-Select FAQ-General-B FAQ-Selected-B"/>
                         <input type="button" value="Hacking" className="Info-FAQ-Select FAQ-Hacking-B FAQ-Unselected-B"/>
