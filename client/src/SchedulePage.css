@@ -26,6 +26,9 @@
     justify-content: space-around;
     flex-direction: row;
 }
+.schedulePic {
+    height: 100%;
+}
 .schedHR {
     width: 85%;
 }
