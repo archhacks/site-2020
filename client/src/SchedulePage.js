@@ -19,10 +19,10 @@ function SchedElm(props){
             <div className="schedData">
                 <div className="schedLeft">
                     <img></img>
-                    <p className="schedElmTime">{props.start} - {props.end}</p>
+                    <p className="schedText schedElmTime">{props.start} - {props.end}</p>
                 </div>
-                <p className="schedElmName">{props.name}</p>
-                <p className="schedElmLoc">{props.loc}</p>
+                <p className="schedText schedElmName">{props.name}</p>
+                <p className="schedText schedElmLoc">{props.loc}</p>
             </div>
             <hr></hr>
         </div>

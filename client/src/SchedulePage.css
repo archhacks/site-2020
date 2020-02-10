@@ -6,6 +6,10 @@
     max-height: 90%;
     height: 90%;
 }
+.schedText {
+    margin: 0;
+    padding: 0;
+}
 .schedData {
     display: flex;
     justify-content: space-around;
