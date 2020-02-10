@@ -28,6 +28,7 @@
 }
 .schedulePic {
     height: 100%;
+    width: auto;
 }
 .schedHR {
     width: 85%;
