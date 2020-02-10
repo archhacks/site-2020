@@ -3,13 +3,13 @@
     height: 100%;
 }
 .schedule {
-    min-height: 90%;
-    max-height: 90%;
-    height: 90%;
     width: 70%;
     max-width: 70%;
 }
 .scheduleAndPic {
+    min-height: 90%;
+    max-height: 90%;
+    height: 90%;
     display: flex;
     flex-direction: row;
 }
