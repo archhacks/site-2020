@@ -24,7 +24,7 @@ function SchedElm(props){
                 <p className="schedText schedElmName">{props.name}</p>
                 <p className="schedText schedElmLoc">{props.loc}</p>
             </div>
-            <hr></hr>
+            <hr className="schedHR"></hr>
         </div>
     )
 }
