@@ -24,7 +24,7 @@ function SchedElm(props){
                 <p className="schedText schedElmName col-sm">{props.name}</p>
                 <p className="schedText schedElmLoc col-sm">{props.loc}</p>
             </div>
-            <hr className="schedHR"></hr>
+            
         </div>
     )
 }
@@ -43,10 +43,13 @@ class SchedulePage extends React.Component {
                     <input type="button" value="General" className="Info-FAQ-Select FAQ-General-B FAQ-Selected-B"/>
                     <input type="button" value="Hacking" className="Info-FAQ-Select FAQ-Hacking-B FAQ-Unselected-B"/>
                     <input type="button" value="Logistics" className="Info-FAQ-Select FAQ-Logistics-B FAQ-Unselected-B"/>
-                    <SchedElm start="10:15 PM" end="10:45 PM" name="ArchHacks thing!" loc="WashU"/>
-                    <SchedElm start="10:15 PM" end="10:45 PM" name="CTF event" loc="The Great Bear's Den"/>
-                    <SchedElm start="10:15 PM" end="10:45 PM" name="leedle lee" loc="The Internet"/>
-                    <SchedElm start="10:15 PM" end="10:45 PM" name="Awards" loc="WashU"/>
+                    <div className="scheduleInnards">
+                        <hr className="schedHR"></hr>
+                        <SchedElm start="10:15 PM" end="10:45 PM" name="ArchHacks thing!" loc="WashU"/>
+                        <SchedElm start="10:15 PM" end="10:45 PM" name="CTF event" loc="The Great Bear's Den"/>
+                        <SchedElm start="10:15 PM" end="10:45 PM" name="leedle lee" loc="The Internet"/>
+                        <SchedElm start="10:15 PM" end="10:45 PM" name="Awards" loc="WashU"/>
+                    </div>
                 </div>
                 <div className="social_media">
                         <a href="https://github.com/archhacks"><i class="fab fa-github fa-2x"></i></a>
