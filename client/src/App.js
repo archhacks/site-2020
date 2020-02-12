@@ -32,7 +32,7 @@ function App() {
           
           <LandingPage />
           <InfoPage />
-          <SchedulePage />
+          {/* <SchedulePage /> */}
       </div>
     </div>
   );
