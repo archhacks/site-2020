@@ -26,7 +26,7 @@ class LandingPage extends React.Component {
                 <img src={Logo} alt="ArchHacks Logo" id="landing-logo"/>
                 <h1 className="Landing-Title" id="heading"><span id="heading-gray">ARCH</span><span id="heading-red">HACKS</span></h1>
                 <p className="landing-gray">Washington University in St. Louis</p>
-                <p className="landing-gray">HealthTech | February 28-March 1</p>
+                <p className="landing-gray">HealthTech</p>
                 {/* <button id="landing-applyButton">Apply for Exec!</button> */}
 
                 <form action="https://apply.archhacks.io">

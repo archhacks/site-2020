@@ -89,7 +89,8 @@ class InfoPage extends React.Component {
                                         <input type="button" value="Logistics" className="Info-FAQ-Select FAQ-Logistics-B FAQ-Unselected-B"/>
                                     </div>
                                     <p className="Info-Question FAQ-General">When and where is ArchHacks?</p>
-                                    <p className="Info-Answer FAQ-General">ArchHacks will be held from February 28th - March 1st in Anhueser-Busch Hall on the Washington University Campus in St. Louis.</p>
+                                    {/* <p className="Info-Answer FAQ-General">ArchHacks will be held from February 28th - March 1st in Anhueser-Busch Hall on the Washington University Campus in St. Louis.</p> */}
+                                    <p className="Info-Answer FAQ-General">The time, date, and location of ArchHacks have not yet been announced! Make sure to sign up for the mailing list for updates!</p> 
                                     <p className="Info-Question FAQ-General">Is there a theme to ArchHacks?</p>
                                     <p className="Info-Answer FAQ-General">The theme of ArchHacks is HealthTech! This is an interdisciplinary field combining big strengths of WashU.</p>
                                     <p className="Info-Question FAQ-General">Why Washington University in St. Louis?</p>
