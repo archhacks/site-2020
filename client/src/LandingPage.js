@@ -27,7 +27,7 @@ class LandingPage extends React.Component {
                 <h1 className="Landing-Title" id="heading"><span id="heading-gray">ARCH</span><span id="heading-red">HACKS</span></h1>
                 <p className="landing-gray">Washington University in St. Louis</p>
                 <p className="landing-gray">HealthTech | February 28-March 1</p>
-                {/* <button id="landing-applyButton">Apply</button> */}
+                {/* <button id="landing-applyButton">Apply for Exec!</button> */}
 
                 <form action="https://apply.archhacks.io">
                     <input type="submit" value="Apply!" na   e="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
