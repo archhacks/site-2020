@@ -15,7 +15,7 @@ class Footer extends React.Component {
                         <a href="https://twitter.com/archhacks"><i class="fab fa-twitter fa-2x"></i></a>
                         <a href="https://medium.com/@ArchHacks"><i class="fab fa-medium-m fa-2x"></i></a>
                     </div>
-                    <p className="social_medial_email">info@archhacks.io</p>
+                    <p className="social_media_email">info@archhacks.io</p>
             </div>
         )
     }
