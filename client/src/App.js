@@ -33,6 +33,7 @@ function App() {
           <LandingPage />
           <InfoPage />
           {/* <SchedulePage /> */}
+          <Footer />
       </div>
     </div>
   );
