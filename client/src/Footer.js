@@ -17,3 +17,5 @@ class SchedulePage extends React.Component {
         )
     }
 }
+
+export default Footer
