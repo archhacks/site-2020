@@ -119,6 +119,10 @@
   bottom: 0;
   margin: 10px;
 }
+.social_media_email {
+  font-size: 90%;
+  color: lightgray;
+}
 .Sponsors-Email {
   color: #c81539;
 }
