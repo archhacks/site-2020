@@ -4,7 +4,7 @@ import './LandingPage.css';
 import './SchedulePage.css';
 import './App.css';
 
-class SchedulePage extends React.Component {
+class Footer extends React.Component {
     
     render(){
         return (
