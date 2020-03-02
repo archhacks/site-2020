@@ -6,3 +6,4 @@ Contributors:
 Jack Horan    
 Steven Lee   
 David Frankel    
+Amanda Hua
