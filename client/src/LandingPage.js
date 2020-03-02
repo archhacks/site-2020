@@ -29,10 +29,11 @@ class LandingPage extends React.Component {
                 <p className="landing-gray">HealthTech</p>
                 {/* <button id="landing-applyButton">Apply for Exec</button> */}
 
-                <form action="http://apply.archhacks.io">
+                {/* <form action="http://apply.archhacks.io">
                     <input type="submit" value="Apply for Exec" na   e="Subscribe" className="join-button" id="mc-embedded-subscribe"/>
-                </form>
-                <a className="news-a" href="http://eepurl.com/gPL1Fr"><p className="newsletter">Want to join the newsletter too?</p>
+                </form> */}
+                <p className="landing-action-item">Exec Applications are now closed for 2020.</p>
+                <a className="news-a" href="http://eepurl.com/gPL1Fr"><p className="newsletter">Want to join the newsletter?</p>
                 <p className="newsletter">Sign up here.</p></a>
                 
 
