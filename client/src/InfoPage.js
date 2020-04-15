@@ -131,7 +131,44 @@ class InfoPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                
+                {/* COVID RESOURCES */}
+                <a name="COVID"></a>
+                <h2 className="Info-Header"><i class="fas fa-exclamation-triangle"></i>COVID-19 Resources<i class="fas fa-exclamation-triangle"></i></h2>
+                <p className="Info-Text">We have compiled a list of coronavirus-related resources to connect volunteers with projects and those in need.</p>
+                <br></br>
+                <div class="row">
+                    <div className="col-xl Info-Left">
+                        <h3 className="Info-Mini-Header">General</h3>
+                            <a className="COVID-link" href="https://coronavirustechhandbook.com/home">Coronavirus Tech Handbook</a>
+                            <p className="Info-Text">A crowd-sourced library with endless coronavirus-related resources</p>
+                            <a className="COVID-link" href="https://www.lesswrong.com/coronavirus-link-database">LessWrong Coronavirus Database</a>
+                            <p className="Info-Text">An incredible database of COVID-19 information</p>
+                            <a className="COVID-link" href="https://docs.google.com/document/d/1dTCjaKh6f3SfOh_RuFEG-UMe8xAKhE527x3oAbVpzQM/edit">COVID-19 Links</a>
+                            <p className="Info-Text">A Google Doc full of coronavirus-related links</p>
+                        <br></br>
+                        <h3 className="Info-Mini-Header">Hackathons</h3>
+                            <a className="COVID-link" href="https://devpost.com/hackathons?challenge_type=online">DevPost</a>
+                            <p className="Info-Text">A huge collection of virtual hackathons</p>
+                            <a className="COVID-link" href="https://coronavirustechhandbook.com/hackathons">Coronavirus Tech Handbook Hackathons</a>
+                            <p className="Info-Text">A crowd-sourced list of coronavirus-related hackathons</p>
+                        <br></br>
+                    </div>
+                    <div className="col-xl Info-Right">
+                        <h3 className="Info-Mini-Header">Volunteer Opportunities</h3>
+                            <a className="COVID-link" href="https://helpwithcovid.com/">Help With Covid</a>
+                            <p className="Info-Text">Connecting volunteers with those in need</p>
+                            <a className="COVID-link" href="https://howwefeel.org/">How We Feel</a>
+                            <p className="Info-Text">An app to check in on yourself and others</p>
+                            <a className="COVID-link" href="https://covid.mattermore.io/">Mattermore</a>
+                            <p className="Info-Text">A forum for coronavirus-related projects</p>
+                        <br></br>
+                        <h3 className="Info-Mini-Header">Games</h3>
+                            <a className="COVID-link" href="https://docs.google.com/document/d/10iOD7Wy_YU4NmkPU7ZH7YTrq11qJAANjZZ0PAotKhR8/preview">Online Games</a>
+                            <p className="Info-Text">A Google Doc full of free, online games to play with friends</p>
+                        <br></br>    
+                    </div>
+                </div>
+                <p className="Info-Text">Note: The ArchHacks team is not affliated with any of the above resources, nor endorses them.</p>
             </div>
         )
     }

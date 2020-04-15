@@ -45,6 +45,9 @@
 .Info-Header {
   font-size: calc(19px + 2.5vmin);
 }
+.Info-Mini-Header {
+  font-size: calc(14px + 2.1vmin);
+}
 .Info-Text {
   font-size: calc(9px + 1.2vmin);
   color: gray;
@@ -177,4 +180,8 @@ body{
 }
 .hide-this {
   display: none;
+}
+.COVID-link, .COVID-link:hover {
+  color: #c81539;
+  font-size: calc(10px + 1.4vmin);
 }
