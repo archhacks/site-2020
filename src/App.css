@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: right;
 }
 
 .App-logo {
@@ -75,6 +75,8 @@
   float: none;
 }
 .Info-Right-Thick {
+  max-width: 120vh;
+  min-width: 100vh;
   margin-top: 5vh;
   margin-bottom: 5vh;
   max-height: 90vh;
@@ -155,6 +157,7 @@ body{
   cursor: pointer;
 }
 .Info-FAQ-Select {
+  /* max-width: 80vh; */
   font-size: calc(7px + 1.1vmin);
   outline: 0;
   outline-color: #c81539;
