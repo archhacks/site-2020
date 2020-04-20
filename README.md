@@ -1,4 +1,4 @@
-# ArchHacks
+# 2020 Site
 
 ArchHacks 2019/2020 Site
 
