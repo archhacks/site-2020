@@ -181,7 +181,11 @@ body{
 .hide-this {
   display: none;
 }
-.COVID-link, .COVID-link:hover {
+.COVID a, a:hover {
   color: #c81539;
-  font-size: calc(10px + 1.4vmin);
+  font-size: calc(11px + 1.5vmin);
+}
+.COVID p {
+  font-size: calc(9px + 1.1vmin);
+  color: gray;
 }
