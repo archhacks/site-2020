@@ -6,6 +6,6 @@ Contributors:
 Jack Horan    
 Steven Lee   
 David Frankel    
-Amanda Hua
-Will Rowe
-Jiwoo Seo
+Amanda Hua    
+Will Rowe    
+Jiwoo Seo    
