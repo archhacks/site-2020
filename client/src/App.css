@@ -43,9 +43,11 @@
   min-height: 100vh;
 }
 .Info-Header {
+  color: #c81539;
   font-size: calc(19px + 2.5vmin);
 }
 .Info-Mini-Header {
+  color: #c81539;
   font-size: calc(14px + 2.1vmin);
 }
 .Info-Text {
@@ -181,6 +183,13 @@ body{
 .hide-this {
   display: none;
 }
+.COVID {
+  min-height: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
 .COVID a, a:hover {
   color: #c81539;
   font-size: calc(11px + 1.5vmin);
@@ -188,4 +197,7 @@ body{
 .COVID p {
   font-size: calc(9px + 1.1vmin);
   color: gray;
+}
+.COVID-Compiled {
+  margin: 30px;
 }
