@@ -6,6 +6,7 @@ import InfoPage from './InfoPage.js'
 import Footer from './Footer.js'
 import SchedulePage from './SchedulePage.js'
 import SponsorPage from './SponsorPage.js'
+import CovidResourcePage from './CovidResourcePage.js'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           
           <LandingPage />
           <InfoPage />
+          <CovidResourcePage />
           {/* <SchedulePage /> */}
           <Footer />
       </div>
