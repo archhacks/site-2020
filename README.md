@@ -7,3 +7,5 @@ Jack Horan
 Steven Lee   
 David Frankel    
 Amanda Hua
+Will Rowe
+Jiwoo Seo
