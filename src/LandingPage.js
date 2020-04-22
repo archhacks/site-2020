@@ -20,7 +20,11 @@ class LandingPage extends React.Component {
 
         return (
         <div>
-
+			<ul class="navigation-bar">
+				<li> <a href="#info-left"> About </a>  </li>
+				<li> <a href="#info-right"> FAQ </a>  </li>
+				<li> <a href="#COVID"> Covid-19 Resources </a>  </li>
+			</ul>
             <header className="App-header container">
 
                 <img src={Logo} alt="ArchHacks Logo" id="landing-logo"/>

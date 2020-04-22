@@ -5,7 +5,7 @@ class CovidResourcePage extends React.Component {
     render(){
         return (
             
-        <div className="COVID">
+        <div className="COVID" id="COVID">
             <a name="COVID"></a>
             <h2 className="Info-Header"><i className="fas fa-exclamation-triangle fa-xs"></i>  COVID-19 Resources  <i className="fas fa-exclamation-triangle fa-xs"></i></h2>
             <p className="COVID-Compiled">We have compiled a list of coronavirus-related resources to connect volunteers with projects and those in need.</p>
@@ -39,7 +39,7 @@ class CovidResourcePage extends React.Component {
                 <h3 className="Info-Mini-Header">Games</h3>
                     <a href="https://docs.google.com/document/d/10iOD7Wy_YU4NmkPU7ZH7YTrq11qJAANjZZ0PAotKhR8/preview" target="_blank" rel="noopener noreferrer">Online Games</a>
                     <p>A Google Doc full of free, online games to play with friends</p>
-                <br></br>    
+                <br></br>
             </div>
             </div>
             <p className="COVID-Compiled">Note: ArchHacks does not affiliate with or endorse any of the above resources.</p>
