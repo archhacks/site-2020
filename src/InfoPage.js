@@ -55,8 +55,8 @@ class InfoPage extends React.Component {
     }
     render() {
         return (
-            <div className="InfoPage container-fluid">
-                
+            <div className="InfoPage container-fluid" id="info-left">
+
                 <div className="row h-100 Info-Row">
                     <div className="col-xl-5 Info-Col Info-Left">
                         <div className="Info-Left-Thick">
@@ -74,13 +74,13 @@ class InfoPage extends React.Component {
                             <div className="Info-Left-Gutter">
                             </div>
                         </div>
-                        
+
                     </div>
-                    <div className="col-xl-7 Info-Col Info-Right">
+                    <div className="col-xl-7 Info-Col Info-Right" id="info-right">
                         <div className="Info-Right-Content">
                             <div className="Info-Right-Gutter"></div>
                             <div className="Info-Right-Thick">
-                            
+
                                 <div className="Info-FAQ-Text">
                                     <div className="Info-FAQ-Top-Row">
                                         <h2 className="Info-Header Info-FAQ-Header">FAQ</h2>
@@ -90,7 +90,7 @@ class InfoPage extends React.Component {
                                     </div>
                                     <p className="Info-Question FAQ-General">When and where is ArchHacks?</p>
                                     {/* <p className="Info-Answer FAQ-General">ArchHacks will be held from February 28th - March 1st in Anhueser-Busch Hall on the Washington University Campus in St. Louis.</p> */}
-                                    <p className="Info-Answer FAQ-General">The time, date, and location of ArchHacks have not yet been announced! Make sure to sign up for the mailing list for updates!</p> 
+                                    <p className="Info-Answer FAQ-General">The time, date, and location of ArchHacks have not yet been announced! Make sure to sign up for the mailing list for updates!</p>
                                     <p className="Info-Question FAQ-General">Is there a theme to ArchHacks?</p>
                                     <p className="Info-Answer FAQ-General">The theme of ArchHacks is HealthTech! This is an interdisciplinary field combining big strengths of WashU.</p>
                                     <p className="Info-Question FAQ-General">Why Washington University in St. Louis?</p>
@@ -127,13 +127,13 @@ class InfoPage extends React.Component {
                                     <p className="Info-Answer">Please feel free to reach out to <span className="Info-Email">info@archhacks.io</span> if you have any further questions!</p>
                                     */}
                                 </div>
-                                
+
                             </div>
                             <div className="Info-Right-Gutter"></div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         )
     }
